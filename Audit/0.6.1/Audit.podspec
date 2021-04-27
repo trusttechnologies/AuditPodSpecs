@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
    s.version 			= "0.6.1"
    s.summary 			= "This library is responsible for creating audits."
 
-   s.homepage 			= "https://gitlab.com/trustchile/movil/lat_trust_mobile_ios_audit_library"
+   s.homepage 			= "https://gitlab.com/trustchile/movil-libs/lat_trust_mobile_ios_audit_library"
    s.license 			= { :type => "MIT", :file => "LICENSE" }
    s.author 			= { "Kevin Torres" => "ktorres@jumpitt.com" }
-   s.source 			= { :git => "https://gitlab.com/trustchile/movil/lat_trust_mobile_ios_audit_library.git", :tag => "#{s.version}" }
+   s.source 			= { :git => "https://gitlab.com/trustchile/movil-libs/lat_trust_mobile_ios_audit_library.git", :tag => "#{s.version}" }
 
    s.platform 			= :ios
    s.ios.deployment_target	= '12.0'
